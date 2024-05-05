@@ -24,9 +24,13 @@ namespace BulkyWeb.Controllers
         [HttpPost]
         public IActionResult Create(Category cat)
         {
-            _db.Categories.Add(cat);
-            _db.SaveChanges();
-            return RedirectToAction("Index");
+            if (ModelState.IsValid)
+            {
+                _db.Categories.Add(cat);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View();
         }
     }
 }
