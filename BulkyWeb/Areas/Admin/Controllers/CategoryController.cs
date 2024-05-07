@@ -4,8 +4,9 @@ using BulkyBook.DataAccess.Repository.IRepository;
 using BulkyBook.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BulkyBookWeb.Controllers
+namespace BulkyBookWeb.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -19,7 +20,7 @@ namespace BulkyBookWeb.Controllers
             return View(categories);
         }
 
-        public IActionResult Create() 
+        public IActionResult Create()
         {
             return View();
         }
@@ -38,10 +39,10 @@ namespace BulkyBookWeb.Controllers
         public IActionResult Edit(int? id)
         {
             if ((id ?? 0) == 0) return NotFound();
-            
+
             Category? cat = _unitOfWork.Category.Get(c => c.Id == id);
             if (cat == null) return NotFound();
-            
+
             return View(cat);
         }
         [HttpPost]
@@ -70,7 +71,7 @@ namespace BulkyBookWeb.Controllers
         {
             Category? cat = _unitOfWork.Category.Get(c => c.Id == id);
             if (cat == null) return NotFound();
-            
+
             _unitOfWork.Category.Remove(cat);
             _unitOfWork.Save();
             TempData["success"] = "Category deleted successfully";
