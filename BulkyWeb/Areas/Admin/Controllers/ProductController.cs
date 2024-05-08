@@ -31,7 +31,7 @@ namespace BulkyBookWeb.Areas.Admin.Controllers
                     Value = u.Id.ToString()
                 });
 
-            ViewBag.CategoryList = categoryList;
+            ViewData["CategoryList"] = categoryList;
 
             return View();
         }
