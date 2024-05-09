@@ -2,22 +2,27 @@
 
 An ASP.NET exercise.
 
-From the course: Introduction to ASP.NET Core MVC (.NET 8)
-
-https://www.dotnetmastery.com/Home/Details?courseId=9
+From the YouTube video: Introduction to ASP.NET Core MVC
+https://www.youtube.com/watch?v=AopeJjkcRvU
 
 # Synopsis
-This is a simple database to store books. Books are organised into categories.
 
-This project is still underway. Currently, only the Category Table has been implemented.
+This is a mock-up of a simple online book store. 
 
-# Topics Covered (so far)
+Customers are required to register and login in order to view the available products.
+
+Only Admin users may update the product catalog and category table.
+
+# Topics Covered
 - Fundamentals of .NET Core
 - MVC Application
 - Razor Pages
 - Entity Framework Core
-- TempData
+- TempData, ViewBag, ViewData
 - Toastr
+- Repository Pattern
+- Identity Framework
+- Authentication and Authorization
 
 
 <div>
