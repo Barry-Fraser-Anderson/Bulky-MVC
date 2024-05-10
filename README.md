@@ -31,6 +31,8 @@ Only Admin users may update the product catalog and category table.
 <img src="https://github.com/Barry-Fraser-Anderson/Bulky-MVC/assets/112425916/422e685a-afe9-407b-a095-2db69e6b8ecd" alt="Product details" title="Product details" width="300">
 </div>
 
+</br>
+
 <div>
 <img src="https://github.com/Barry-Fraser-Anderson/Bulky-MVC/assets/112425916/198593bc-926c-4cc3-867c-c9aba0a25f58" alt="Register user" title="Register user" width="300">
 <img src="https://github.com/Barry-Fraser-Anderson/Bulky-MVC/assets/112425916/c50c7b0d-f64a-402c-9246-c169f3aba35b" alt="Log in" title="Log in" width="300">
@@ -42,6 +44,8 @@ Only Admin users may update the product catalog and category table.
 <img src="https://github.com/Barry-Fraser-Anderson/Bulky-MVC/assets/112425916/251fe1db-b795-464d-bfb3-8e427be71721" alt="Home (Admin user)" title="Home (Admin user)" width="300">
 <img src="https://github.com/Barry-Fraser-Anderson/Bulky-MVC/assets/112425916/4d0f88c1-4277-486a-a0d7-a07a26d78073" alt="Category management" title="Category management" width="300">
 </div>
+
+</br>
 
 <div>
 <img src="https://github.com/Barry-Fraser-Anderson/Bulky-MVC/assets/112425916/8a49fca7-6279-488e-8779-634539fdbb56" alt="Product management" title="Product management" width="300">
