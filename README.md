@@ -5,7 +5,7 @@ An ASP.NET exercise.
 From the YouTube video: Introduction to ASP.NET Core MVC
 https://www.youtube.com/watch?v=AopeJjkcRvU
 
-# Synopsis
+## Synopsis
 
 This is a mock-up of a simple online book store. 
 
@@ -13,7 +13,7 @@ Customers are required to register and login in order to place an order. (The sh
 
 Only Admin users may update the product catalog and category table.
 
-# Topics Covered
+## Topics Covered
 - Fundamentals of .NET Core
 - MVC Application
 - Razor Pages
@@ -24,7 +24,9 @@ Only Admin users may update the product catalog and category table.
 - Identity Framework
 - Authentication and Authorization
 
-# Customer pages
+## Screenshots
+
+### Customer pages
 
 <div>
 <img src="https://github.com/Barry-Fraser-Anderson/Bulky-MVC/assets/112425916/6a9e0be2-62c7-4592-b170-c42733edfe62" alt="Home page" title="Home page" width="300">
@@ -38,7 +40,7 @@ Only Admin users may update the product catalog and category table.
 <img src="https://github.com/Barry-Fraser-Anderson/Bulky-MVC/assets/112425916/c50c7b0d-f64a-402c-9246-c169f3aba35b" alt="Log in" title="Log in" width="300">
 </div>
 
-# Management pages (Admin user)
+### Management pages (Admin user)
 
 <div>
 <img src="https://github.com/Barry-Fraser-Anderson/Bulky-MVC/assets/112425916/251fe1db-b795-464d-bfb3-8e427be71721" alt="Home (Admin user)" title="Home (Admin user)" width="300">
