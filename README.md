@@ -1,15 +1,16 @@
 # Bulky-MVC
 An ASP.NET exercise.
 
-From the YouTube video: Introduction to ASP.NET Core MVC
+Inspired by a YouTube video: Introduction to ASP.NET Core MVC
 https://www.youtube.com/watch?v=AopeJjkcRvU
 
-## Synopsis
+## Description
 A mock-up of a simple online book store. 
 
-Customers are required to register and login in order to place an order. (The shopping cart is not currently implemented)
+Customers are required to register and login in order to to place an order.
+(Shopping cart has not been implemented)
 
-Only Admin users may update the product catalog and category table.
+Only logged-in Admin users may update the product catalog and category table.
 
 ## Topics Covered
 - Fundamentals of .NET Core
